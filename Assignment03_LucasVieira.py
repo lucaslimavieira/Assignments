@@ -37,9 +37,7 @@ print("-" * 25)
 x.append(x[0])
 y.append(y[0])
 n = sides
-print(x)
-print(y)
-print(n)
+
 for i in range(n):
     ax = ((x[i+1]*y[i])-(y[i+1]*x[i])) + ax
 ax = ax/2
